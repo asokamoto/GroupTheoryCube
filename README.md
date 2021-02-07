@@ -2,7 +2,7 @@
 **By Ashlyn Okamoto**  
 
 **About**  
-This code was created for a thesis project for the Honors College by Computer Science student, Ashlyn Okamoto. The code in this repository was created with the language Java-Processing. The base of the cube was created following the [tutorial](https://thecodingtrain.com/CodingChallenges/142.1-rubiks-cube.html) by TheCodingTrain. Thesis advisor is Andrew Wilson.  
+This code was created for a thesis project for the Portland State University Honors College by Computer Science student, Ashlyn Okamoto. The code in this repository was created with the language Java-Processing. The base of the cube was created following the [tutorial](https://thecodingtrain.com/CodingChallenges/142.1-rubiks-cube.html) by TheCodingTrain. Thesis advisor is Andrew Wilson.  
 
 
 **How to use**  
@@ -29,10 +29,17 @@ Keypress [p] – Resets the cube to solved state
 
 **Group Theory Concepts**  
 Keypress [i]: Identity  
+  
 Definition ([Wikipedia](https://en.wikipedia.org/wiki/Identity_element)):
-"The identity element, or neutral element, is a special type of element of a set with respect to a binary operation on that set, which leaves any element of the set unchanged when combined with it"
+"The identity element, or neutral element, is a special type of element of a set with respect to a binary operation on that set, which leaves any element of the set unchanged when combined with it"  
 In this case, when pressing the 'i' button on the keyboard, the cube will randomly choose a face to turn four times. This demonstrates that when the cube does these four moves, the cube is put back to the same position that it was previously.
 For example, in addition, the identity element is 0 because when adding 0 to anything, the outcome is itself. In multiplication, the identity element is 1 as anything multiplied by 1 is itself. In the case of the Rubik's cube, either doing nothing to the cube, or turning a single side four times is the identity element of the group.
-
-
+  
+	
+Keypress [a], [A]: Associativity  
+  
+Definition([Wikipedia](https://en.wikipedia.org/wiki/Associative_property)):
+"The associative property is a property of some binary operations, which means that rearranging the parentheses in an expression will not change the result."  
+For example, multiplication has an associative property because (a * b) * c = a * (b * c)  
+In the case of the Rubik's cube, 
 

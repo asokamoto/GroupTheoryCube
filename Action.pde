@@ -84,23 +84,40 @@ void keyPressed()
       move.start();
       count = 0;
       break;
-   case 'v':
-      reset2();
+   case 'c':
       count = 0;
       list = invAL1;
       move = invAL1.get(0);
       move.start();
       count = 0;
       break;
+      
    case 'V':
-      reset2();
       count = 0;
       list = invAL2;
       move = invAL2.get(0);
       move.start();
       count=0;
-
       break;
+   
+   case 'v':
+      count = 0;
+      list = invAL3;
+      move = invAL3.get(0);
+      move.start();
+      count =0;
+      break;
+
+  case 'C':
+      count = 0;
+      list = invAL4;
+      move = invAL4.get(0);
+      move.start();
+      count = 0;
+      break;
+
+      
+
 
   }
 

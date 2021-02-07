@@ -23,6 +23,10 @@ ArrayList<Move> invAL1 = new ArrayList<Move>();
 
 ArrayList<Move> invAL2 = new ArrayList<Move>();
 
+ArrayList<Move> invAL3 = new ArrayList<Move>();
+
+ArrayList<Move> invAL4 = new ArrayList<Move>();
+
 boolean started = false;
 PeasyCam cam;
 
@@ -83,6 +87,8 @@ void setup() {
   orderSetup();
   invSetup1();
   invSetup2();
+  invSetup3();
+  invSetup4();
   list = listTemp;
 }
 
@@ -109,6 +115,8 @@ void resetCube()
   orderSetup();
   invSetup1();
   invSetup2();
+  invSetup3();
+  invSetup4();
 
 }
 void reset2(){
@@ -139,29 +147,36 @@ void invSetup1(){
     invAL1.add(temp);
   }
 
-  int[] tempList2 = {3, 5};
-  for(int j = 1; j >= 0; j--)
-  {
-    Move temp = allMoves[tempList2[j]];
-    invAL1.add(temp);
-  }
 }
 
 void invSetup2(){
   invAL2.clear();
+  int[] tempList2 = {3, 5};
+  for(int j = 1; j >= 0; j--)
+  {
+    Move temp = allMoves[tempList2[j]];
+    invAL2.add(temp);
+  }
+}
+
+
+void invSetup3(){
+  invAL3.clear();
   int[] tempList = {4, 2};
   for(int i = 0; i < 2; i++)
   {
     Move temp = allMoves[tempList[i]];
-    invAL2.add(temp);
+    invAL3.add(temp);
   }
+}
 
-
-  int[] tempList2 = {3, 5};
+void invSetup4(){
+  invAL4.clear();
+  int[] tempList = {3, 5};
   for(int j = 0; j < 2; j++)
   {
-    Move temp = allMoves[tempList2[j]];
-    invAL2.add(temp);
+    Move temp = allMoves[tempList[j]];
+    invAL4.add(temp);
   }
 
 }
