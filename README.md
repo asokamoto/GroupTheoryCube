@@ -8,7 +8,7 @@ This code was created for a thesis project for the Honors College by Computer Sc
 **How to use**  
 You will need to download [Processing](https://processing.org/) to run this project. Once you have downloaded the software, download the code in this repository. When opening the project in the Processing environment, press the play button at the top left to launch the cube. 
 
-##Functionality  
+## Functionality  
 You can move the cube just like any other cube, (clockwise and counter-clockwise when the red side is facing the user – bottom side is the same as the top side, back side is the same as the front side)
 
 **Basic Moves**  
