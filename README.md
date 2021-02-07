@@ -8,18 +8,18 @@ You will need to download [Processing](https://processing.org/) to run this proj
 **Functionality** 
 You can move the cube just like any other cube, (clockwise and counter-clockwise when the red side is facing the user – bottom side is the same as the top side, back side is the same as the front side)
 
-Keypress [r] – Moves the right side of the cube clockwise
-Keypress [R] – Moves the right side of the cube counter-clockwise
-Keypress [l] – Moves the left side of the cube clockwise
-Keypress [L] – Moves the left side of the cube counter-clockwise
-Keypress [u]  – Moves the top side of the cube clockwise
-Keypress [U] – Moves the top side of the cube counter-clockwise
-Keypress [f] – Moves the front side of the cube clockwise
-Keypress [F] – Moves the front side of the cube counter-clockwise
-Keypress [b] – Moves the back side of the cube clockwise
-Keypress [B] – Moves the back side of the cube counter-clockwise
-Keypress [d] – Moves the bottom side of the cube clockwise
-Keypress [D] – Moves the bottom side of the cube counter-clockwise
+Keypress [r] – Moves the right side of the cube clockwise  
+Keypress [R] – Moves the right side of the cube counter-clockwise  
+Keypress [l] – Moves the left side of the cube clockwise   
+Keypress [L] – Moves the left side of the cube counter-clockwise  
+Keypress [u]  – Moves the top side of the cube clockwise  
+Keypress [U] – Moves the top side of the cube counter-clockwise  
+Keypress [f] – Moves the front side of the cube clockwise  
+Keypress [F] – Moves the front side of the cube counter-clockwise  
+Keypress [b] – Moves the back side of the cube clockwise  
+Keypress [B] – Moves the back side of the cube counter-clockwise  
+Keypress [d] – Moves the bottom side of the cube clockwise  
+Keypress [D] – Moves the bottom side of the cube counter-clockwise  
 
-Keypress [p] – Resets the cube to solved state
+Keypress [p] – Resets the cube to solved state  
 
