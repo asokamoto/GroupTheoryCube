@@ -9,7 +9,7 @@ This code was created for a thesis project for the Portland State University Hon
 You will need to download [Processing](https://processing.org/) to run this project. Once you have downloaded the software, download the code in this repository. When opening the project in the Processing environment, press the play button at the top left to launch the cube. 
 
 ## Functionality  
-You can move the cube just like any other cube, (clockwise and counter-clockwise when the red side is facing the user – bottom side is the same as the top side, back side is the same as the front side)
+Use the mouse to move the cube around and double click anywhere on the window to reset the cube to its original position. You can move the cube just like any other cube, (clockwise and counter-clockwise when the red side is facing the user – bottom side is the same as the top side, back side is the same as the front side)
 
 **Basic Moves**  
 Keypress [r] – Moves the right side of the cube clockwise  
@@ -52,3 +52,16 @@ For example, multiplication has an associative property because (a * b) * c = a 
   
 The example this cube uses, has the order of 6. When pressing the 'o' button, the moves R U R' U' will be done. If the 'o' button is pressed 6 times, the cube is returned to its original state. Another example is the identtity movement ('i') as each side has an order of 4. When moving any one side in the same direction 4 times, the cube is put back to its original position.  
 
+- Keypress [v], [V], [c], [C]: Inverses
+
+*Definition([Wikipedia](https://en.wikipedia.org/wiki/Inverse_element)): 
+"The idea of an inverse element generalises the concepts of negation (sign reversal) (in relation to addition) and reciprocation (in relation to multiplication)"*  
+  
+The equation for this is (ab)^{-1} = (b)^{-1}(a)^{-1}.  
+Another great visual is putting on shoes (a) and socks (b). When putting on shoes (a) and socks (b), you put on your socks first, then your shoes (ab). To reverse this series of events (ab)^{-1}, you must first take off the shoes (b)^{-1} and then the socks (a)^{-1} resulting in the equation (ab)^{-1} = (b)^{-1}(a)^{-1}.  
+For this cube, I have implemented two different sets of moves. Keypresses 'v' and 'V' will give you the incorrect order of moves.
+When pressing v, the right side moves clockwise (R) followed by the top side moving clockwise (U). 
+When pressing 'V', the right side moves counter-clockwise (R') followed by the top side moving counter-clockwise (U').
+We understand that this combination does not work because although using the correct inversed moves, to put the cube to its original state, we must do them in the right order. In this case R = a and U = b. When trying to reverse the R U combination, we must do the inverse of U first, then the inverse of R.  
+  
+This is correctly shown using the keypresses 'c' and 'C'.
