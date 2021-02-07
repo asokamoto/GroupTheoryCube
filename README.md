@@ -41,5 +41,10 @@ Keypress [a], [A]: Associativity
 Definition([Wikipedia](https://en.wikipedia.org/wiki/Associative_property)):
 "The associative property is a property of some binary operations, which means that rearranging the parentheses in an expression will not change the result."  
 For example, multiplication has an associative property because (a * b) * c = a * (b * c)  
-In the case of the Rubik's cube, 
+  
+KeyPress [o]: Order  
+
+Definition([Wikipedia](https://en.wikipedia.org/wiki/Order_(group_theory))): 
+"The order of a group is its cardinality, that is, the number of elements in its set. If the group is seen multiplicatively, the order of an element a of a group, sometimes also called the period length or period of a, is the smallest positive integer m such that a^m = e, where e denotes the identity element of the group, and am denotes the product of m copies of a. If no such m exists, a is said to have infinite order."  
+The example this cube uses, has the order of 6. When pressing the 'o' button, the moves R U R' U' will be done. If the 'o' button is pressed 6 times, the cube is returned to its original state. Another example is the identtity movement ('i') as each side has an order of 4. When moving any one side in the same direction 4 times, the cube is put back to its original position.  
 
