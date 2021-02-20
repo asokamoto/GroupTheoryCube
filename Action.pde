@@ -59,13 +59,6 @@ void keyPressed()
       move.start();
       count = 0;
       break;
-    case 'A':
-      count = 0;
-      move =  associateALb.get(0);
-      list = associateALb;
-      move.start();
-      count = 0;
-      break;
     case 'i':
       count = 0;
       list = identityAL;

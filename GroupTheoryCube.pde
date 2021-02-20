@@ -10,7 +10,6 @@ ArrayList<Move> identityAL = new ArrayList<Move>();
 
 Move assocMove;
 ArrayList<Move> associateALf = new ArrayList<Move>();
-ArrayList<Move> associateALb = new ArrayList<Move>();
 
 Move move;
 ArrayList<Move> regsAL = new ArrayList<Move>();
@@ -208,21 +207,12 @@ void idenSetup() {
 void assocSetup()
 {
   associateALf.clear();
-  associateALb.clear();
-  for(int i = 0; i <= 4; i++)
+  int []tempList = {4, 2,5};
+  for(int i = 0; i < 3; i++)
   {
-    int r = int(random(allMoves.length));
-    Move temp = allMoves[r];
+    Move temp = allMoves[tempList[i]];
     associateALf.add(temp);
   }
-
-  for(int i = 4; i >= 0; i--)
-  {
-    Move reversed = associateALf.get(i).copy();
-    reversed.reverse();
-    associateALb.add(reversed);
-  }
-
 }
 
 void draw(){
