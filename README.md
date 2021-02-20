@@ -35,7 +35,7 @@ Keypress [p] – Resets the cube to solved state
 "The identity element, or neutral element, is a special type of element of a set with respect to a binary operation on that set, which leaves any element of the set unchanged when combined with it"*  
    
 In this case, when pressing the 'i' button on the keyboard, the cube will randomly choose a face to turn four times. This demonstrates that when the cube does these four moves, the cube is put back to the same position that it was previously.
-For example, in addition, the identity element is 0 because when adding 0 to anything, the outcome is itself. In multiplication, the identity element is 1 as anything multiplied by 1 is itself. In the case of the Rubik's cube, either doing nothing to the cube, or turning a single side four times is the identity element of the group.
+For example, in addition, the identity element is 0 because when adding 0 to anything, the outcome is itself. In multiplication, the identity element is 1 as anything multiplied by 1 is itself. In the case of the Rubik's cube, either doing nothing to the cube, or turning a single side four times is the identity element of the group. There are many instances of identity within the group that is the Rubik’s cube. In fact, there are many sequences of moves that end with every piece where they began with. All of these sequences are considered identity elements. 
   
 	
 - Keypress [a], [A]: Associativity  
