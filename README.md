@@ -48,21 +48,23 @@ For example, in addition, the identity element is 0 because when adding 0 to any
   
 - KeyPress [o]: Order  
 
-*Definition([Wikipedia](https://en.wikipedia.org/wiki/Order_(group_theory))): 
-"The order of a group is its cardinality, that is, the number of elements in its set. If the group is seen multiplicatively, the order of an element a of a group, sometimes also called the period length or period of a, is the smallest positive integer m such that a^m = e, where e denotes the identity element of the group, and am denotes the product of m copies of a. If no such m exists, a is said to have infinite order."*  
-  
-The example this cube uses, has the order of 6. When pressing the 'o' button, the moves R U R' U' will be done. If the 'o' button is pressed 6 times, the cube is returned to its original state. Another example is the identtity movement ('i') as each side has an order of 4. When moving any one side in the same direction 4 times, the cube is put back to its original position.  
+The Wikipedia definition of order is a little too confusing for this level of understanding, so I will give an example instead. Given a group G with an order of 2, G has two elements. The easiest way to understand it is attributing it with size. When a group is generated, it is important to know whether or not that group has an order and what it is. Within this project, I have created a set of moves, R U R’ U’. Each press of the specific key, the cube will do this set of moves. If the user pressed the button 6 times, the cube will eventually be put back to its original position. This means that this group of moves has an order of 6. The identity always has an order of one, as putting the cube back to its original state can be seen as one move as a whole, but the individual on-sided rotation that is used to demonstrate identity in this project has an order of 4. 
 
 - Keypress [v], [V], [c], [C]: Inverses
 
 *Definition([Wikipedia](https://en.wikipedia.org/wiki/Inverse_element)): 
 "The idea of an inverse element generalises the concepts of negation (sign reversal) (in relation to addition) and reciprocation (in relation to multiplication)"*  
   
-The equation for this is (ab)^{-1} = (b)^{-1}(a)^{-1}.  
-Another great visual is putting on shoes (a) and socks (b). When putting on shoes (a) and socks (b), you put on your socks first, then your shoes (ab). To reverse this series of events (ab)^{-1}, you must first take off the shoes (b)^{-1} and then the socks (a)^{-1} resulting in the equation (ab)^{-1} = (b)^{-1}(a)^{-1}.  
-For this cube, I have implemented two different sets of moves. Keypresses 'v' and 'V' will give you the incorrect order of moves.
-When pressing v, the right side moves clockwise (R) followed by the top side moving clockwise (U). 
-When pressing 'V', the right side moves counter-clockwise (R') followed by the top side moving counter-clockwise (U').
-We understand that this combination does not work because although using the correct inversed moves, to put the cube to its original state, we must do them in the right order. In this case R = a and U = b. When trying to reverse the R U combination, we must do the inverse of U first, then the inverse of R.  
-  
-This is correctly shown using the keypresses 'c' and 'C'.
+According to Wikipedia, inverses are defined as,
+
+"The idea of an inverse element generalizes the concepts of negation (sign reversal) (in relation to addition) and reciprocation (in relation to multiplication)"
+
+An inverse is the move that undoes another. In multiplication the inverse of x is 1/x as this undoes the initial multiplication. In terms of the Rubik’s cube, each individual move has an inverse. For example, R has R’, U has U’ and so on. As mentioned before, the “sock and shoe” example works best for a real-world application. To reiterate, when seeing an equation like the following, 
+
+Eq. 1 〖(xy)〗^(-1)= 〖 y〗^(-1) x^(-1) 
+
+students may just memorize that when expanding inverses, the expression puts the variables in reverse order. A real-world example to remember this concept is the shoes and socks explanation. When putting on shoes, you put your socks on first, then your shoes. When taking your shoes off and creating an inverse process, you take your shoes off first, then your socks. For this project, I have the regular functionality (any move and its prime) that shows inverse in the basic sense, but I have also implemented examples of the expansion of inverses. There is a set of keypresses that result in the incorrect order. In terms of the equation above, it would show,
+Eq. 2 〖(xy)〗^(-1)= 〖 x〗^(-1) y^(-1)
+
+which is incorrect. Another set of keypresses will show the correct equation (eq. 1), and the user will be able to tell whether they are doing the correct moves if the resulting cube is fully solved (or in its original position).
+
