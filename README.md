@@ -61,10 +61,11 @@ According to Wikipedia, inverses are defined as,
 
 An inverse is the move that undoes another. In multiplication the inverse of x is 1/x as this undoes the initial multiplication. In terms of the Rubik’s cube, each individual move has an inverse. For example, R has R’, U has U’ and so on. As mentioned before, the “sock and shoe” example works best for a real-world application. To reiterate, when seeing an equation like the following, 
 
-Eq. 1 〖(xy)〗^(-1)= 〖 y〗^(-1) x^(-1) 
+Eq. 1 (xy)^(-1)=  (y)^(-1) x^(-1) 
 
-students may just memorize that when expanding inverses, the expression puts the variables in reverse order. A real-world example to remember this concept is the shoes and socks explanation. When putting on shoes, you put your socks on first, then your shoes. When taking your shoes off and creating an inverse process, you take your shoes off first, then your socks. For this project, I have the regular functionality (any move and its prime) that shows inverse in the basic sense, but I have also implemented examples of the expansion of inverses. There is a set of keypresses that result in the incorrect order. In terms of the equation above, it would show,
-Eq. 2 〖(xy)〗^(-1)= 〖 x〗^(-1) y^(-1)
+students may just memorize that when expanding inverses, the expression puts the variables in reverse order. A real-world example to remember this concept is the shoes and socks explanation. When putting on shoes, you put your socks on first, then your shoes. When taking your shoes off and creating an inverse process, you take your shoes off first, then your socks. For this project, I have the regular functionality (any move and its prime) that shows inverse in the basic sense, but I have also implemented examples of the expansion of inverses. Keypresses 'V' and 'v' result in the incorrect order. In terms of the equation above, it would show,
 
-which is incorrect. Another set of keypresses will show the correct equation (eq. 1), and the user will be able to tell whether they are doing the correct moves if the resulting cube is fully solved (or in its original position).
+Eq. 2 (xy)^(-1)= (x)^(-1) y^(-1)
+
+which is incorrect. Keypresses 'C' and 'c' will show the correct equation (eq. 1), and the user will be able to tell whether they are doing the correct moves if the resulting cube is fully solved (or in its original position).
 
