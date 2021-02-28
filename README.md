@@ -1,4 +1,4 @@
-# Demonstrating Group Theory Concepts with the Rubik's Cube  
+# Group Theory Visualized Through the Rubik’s Cube
 **By Ashlyn Okamoto**  
 
 **About**  
