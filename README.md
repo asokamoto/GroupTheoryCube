@@ -41,9 +41,10 @@ For example, in addition, the identity element is 0 because when adding 0 to any
 - Keypress [a], [A]: Associativity  
   
 *Definition([Wikipedia](https://en.wikipedia.org/wiki/Associative_property)):
-"The associative property is a property of some binary operations, which means that rearranging the parentheses in an expression will not change the result."*  
-  
-For example, multiplication has an associative property because (a * b) * c = a * (b * c)  
+"The associative property is a property of some binary operations, which means that rearranging the parentheses in an expression will not change the result."* 
+
+ In order for the Rubik’s Cube to be considered a group, it must have an associative property. The grouping of turns can be changed, and the final result will be the same. Within this cube, I have implemented a short series of moves: R U R’. Though this may not seem like much, due to the Rubik’s cube being a group, this means that the associative property is evident in these three moves. These moves van be grouped as (R U) R’ or R (U R’) and still have the same result. The order of the turns is not being changed, just which moves are being grouped together. 
+
   
 - KeyPress [o]: Order  
 
