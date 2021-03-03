@@ -38,7 +38,7 @@ In this case, when pressing the 'i' button on the keyboard, the cube will random
 For example, in addition, the identity element is 0 because when adding 0 to anything, the outcome is itself. In multiplication, the identity element is 1 as anything multiplied by 1 is itself. In the case of the Rubik's cube, either doing nothing to the cube, or turning a single side four times is the identity element of the group. There are many instances of identity within the group that is the Rubik’s cube. In fact, there are many sequences of moves that end with every piece where they began with. All of these sequences are considered identity elements. 
   
 	
-- Keypress [a], [A]: Associativity  
+- Keypress [a]: Associativity  
   
 *Definition([Wikipedia](https://en.wikipedia.org/wiki/Associative_property)):
 "The associative property is a property of some binary operations, which means that rearranging the parentheses in an expression will not change the result."* 
